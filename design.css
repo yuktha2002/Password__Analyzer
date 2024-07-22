@@ -1,0 +1,60 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff; /* white background for the container */
+    padding: 20px;
+    border: 1px solid #ddd; /* light gray border */
+    border-radius: 10px; /* rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    width: 300px; /* fixed width for the container */
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* light gray border */
+    border-radius: 5px; /* rounded corners */
+    width: 100%; /* full width */
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50; /* green background */
+    color: #fff; /* white text */
+    border: none;
+    border-radius: 5px; /* rounded corners */
+    width: 100%; /* full width */
+}
+
+    button:hover {
+        background-color: #3e8e41; /* darker green on hover */
+    }
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #666; /* dark gray text */
+}
+
+    .result strong {
+        font-weight: bold;
+        color: #333; /* darker gray text */
+    }
+
+    .result.success {
+        color: #2ecc71; /* green text for success */
+    }
+
+    .result.error {
+        color: #e74c3c; /* red text for error */
+    }
